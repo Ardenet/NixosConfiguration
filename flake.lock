@@ -1,0 +1,97 @@
+{
+  "nodes": {
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1747046372,
+        "narHash": "sha256-CIVLLkVgvHYbgI2UpXvIIBJ12HWgX+fjA8Xf8PUmqCY=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "9100a0f413b0c601e0533d1d94ffd501ce2e7885",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "nixos-wsl": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1755171343,
+        "narHash": "sha256-h6bbfhqWcHlx9tcyYa7dhaEiNpusLCcFYkJ/AnltLW8=",
+        "owner": "nix-community",
+        "repo": "NixOS-WSL",
+        "rev": "e37cfef071466a9ca649f6899aff05226ce17e9e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "main",
+        "repo": "NixOS-WSL",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1755027561,
+        "narHash": "sha256-IVft239Bc8p8Dtvf7UAACMG5P3ZV+3/aO28gXpGtMXI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixos-wsl": "nixos-wsl",
+        "nixpkgs": "nixpkgs",
+        "starshipConfig": "starshipConfig",
+        "yazi-flavors": "yazi-flavors"
+      }
+    },
+    "starshipConfig": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-OwklK1VkPolR8C6Srn36+8ZEM/T18dVBBiqGKcOse6w=",
+        "type": "file",
+        "url": "https://gist.githubusercontent.com/Ardenet/dfd994874c040890c28f854e3bdcd4db/raw/starship.toml"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://gist.githubusercontent.com/Ardenet/dfd994874c040890c28f854e3bdcd4db/raw/starship.toml"
+      }
+    },
+    "yazi-flavors": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1754320999,
+        "narHash": "sha256-xMaZoWSetXHg772cwqBTEcdXdnGYQVaiUDcjKk9r53w=",
+        "owner": "yazi-rs",
+        "repo": "flavors",
+        "rev": "9cd2ac4510755f3fb6bfec271827497f2db0dc4e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yazi-rs",
+        "ref": "main",
+        "repo": "flavors",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
