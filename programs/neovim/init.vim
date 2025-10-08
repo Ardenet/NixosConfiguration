@@ -19,6 +19,9 @@ set smartcase
 " 设置剪贴板同步
 set clipboard+=unnamedplus
 
+" 设置滚动保留行数
 set scrolloff=3
 
+" 设置鼠标模式
+" 仅可在命令行中使用
 set mouse=c

@@ -1,4 +1,4 @@
-{yaziFlavors, ...}: {
+{inputs, ...}: {
   programs.yazi = {
     enable = true;
     settings = {
@@ -22,7 +22,7 @@
       };
     };
     flavors = {
-      "dracula.yazi" = "${yaziFlavors}/dracula.yazi";
+      "dracula.yazi" = with inputs; "${yaziFlavors}/dracula.yazi";
     };
   };
 }

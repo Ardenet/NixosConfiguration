@@ -40,17 +40,62 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1755027561,
-        "narHash": "sha256-IVft239Bc8p8Dtvf7UAACMG5P3ZV+3/aO28gXpGtMXI=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+        "lastModified": 1759381078,
+        "narHash": "sha256-gTrEEp5gEspIcCOx9PD8kMaF1iEmfBcTbO0Jag2QhQs=",
+        "ref": "nixos-unstable",
+        "rev": "7df7ff7d8e00218376575f0acdcc5d66741351ee",
+        "shallow": true,
+        "type": "git",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/git/nixpkgs.git"
+      },
+      "original": {
+        "ref": "nixos-unstable",
+        "shallow": true,
+        "type": "git",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/git/nixpkgs.git"
+      }
+    },
+    "noctalia": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "quickshell": [
+          "quickshell"
+        ],
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1759752249,
+        "narHash": "sha256-/P1YfNlDwBCTf28z61oaR3UBvmi6khapbJgUaQ7Uyyo=",
+        "owner": "noctalia-dev",
+        "repo": "noctalia-shell",
+        "rev": "bff0694b0263ed8d85615b08a8f1d083a638fb19",
         "type": "github"
       },
       "original": {
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
+        "owner": "noctalia-dev",
+        "repo": "noctalia-shell",
+        "type": "github"
+      }
+    },
+    "quickshell": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1759610621,
+        "narHash": "sha256-P3UPFd95mS/3aNgy40nCXAmyfR2bEEBd+tX6xfkYFb0=",
+        "owner": "outfoxxed",
+        "repo": "quickshell",
+        "rev": "c5c438f1cd1a76660a8658ef929a3d19e968e2ce",
+        "type": "github"
+      },
+      "original": {
+        "owner": "outfoxxed",
+        "repo": "quickshell",
         "type": "github"
       }
     },
@@ -58,8 +103,10 @@
       "inputs": {
         "nixos-wsl": "nixos-wsl",
         "nixpkgs": "nixpkgs",
+        "noctalia": "noctalia",
+        "quickshell": "quickshell",
         "starshipConfig": "starshipConfig",
-        "yazi-flavors": "yazi-flavors"
+        "yaziFlavors": "yaziFlavors"
       }
     },
     "starshipConfig": {
@@ -74,14 +121,29 @@
         "url": "https://gist.githubusercontent.com/Ardenet/dfd994874c040890c28f854e3bdcd4db/raw/starship.toml"
       }
     },
-    "yazi-flavors": {
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "yaziFlavors": {
       "flake": false,
       "locked": {
-        "lastModified": 1754320999,
-        "narHash": "sha256-xMaZoWSetXHg772cwqBTEcdXdnGYQVaiUDcjKk9r53w=",
+        "lastModified": 1758842767,
+        "narHash": "sha256-+awiEG5ep0/6GaW8YXJ7FP0/xrL4lSrJZgr7qjh8iBc=",
         "owner": "yazi-rs",
         "repo": "flavors",
-        "rev": "9cd2ac4510755f3fb6bfec271827497f2db0dc4e",
+        "rev": "2d73b79da7c1a04420c6c5ef0b0974697f947ef6",
         "type": "github"
       },
       "original": {

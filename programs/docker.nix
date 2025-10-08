@@ -1,4 +1,4 @@
-{
+{config, ...}: {
   virtualisation.docker.enable = true;
-  users.users.ardenet.extraGroups = ["docker"];
+  users.users."${config.mySystem.userName}".extraGroups = ["docker"];
 }

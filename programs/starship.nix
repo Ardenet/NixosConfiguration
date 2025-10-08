@@ -1,10 +1,10 @@
 {
   lib,
-  starshipConfig,
+  inputs,
   ...
 }: {
   programs.starship = {
     enable = true;
-    settings = lib.importTOML starshipConfig;
+    settings = lib.importTOML inputs.starshipConfig;
   };
 }

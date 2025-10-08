@@ -1,0 +1,242 @@
+{
+    "appLauncher": {
+        "backgroundOpacity": 1,
+        "enableClipboardHistory": true,
+        "pinnedExecs": [
+        ],
+        "position": "center",
+        "sortByMostUsed": true,
+        "terminalCommand": "kitty -e",
+        "useApp2Unit": false
+    },
+    "audio": {
+        "cavaFrameRate": 60,
+        "mprisBlacklist": [
+        ],
+        "preferredPlayer": "splayer",
+        "visualizerType": "wave",
+        "volumeOverdrive": false,
+        "volumeStep": 5
+    },
+    "bar": {
+        "backgroundOpacity": 0.8,
+        "density": "default",
+        "floating": true,
+        "marginHorizontal": 0.25,
+        "marginVertical": 0.25,
+        "monitors": [
+        ],
+        "position": "top",
+        "showCapsule": true,
+        "widgets": {
+            "center": [
+                {
+                    "hideUnoccupied": false,
+                    "id": "Workspace",
+                    "labelMode": "name"
+                }
+            ],
+            "left": [
+                {
+                    "id": "SystemMonitor",
+                    "showCpuTemp": true,
+                    "showCpuUsage": true,
+                    "showDiskUsage": true,
+                    "showMemoryAsPercent": true,
+                    "showMemoryUsage": true,
+                    "showNetworkStats": true
+                },
+                {
+                    "autoHide": false,
+                    "id": "ActiveWindow",
+                    "scrollingMode": "hover",
+                    "showIcon": true,
+                    "width": 145
+                },
+                {
+                    "autoHide": true,
+                    "id": "MediaMini",
+                    "scrollingMode": "hover",
+                    "showAlbumArt": false,
+                    "showVisualizer": true,
+                    "visualizerType": "mirrored"
+                }
+            ],
+            "right": [
+                {
+                    "id": "ScreenRecorder"
+                },
+                {
+                    "id": "Tray"
+                },
+                {
+                    "hideWhenZero": true,
+                    "id": "NotificationHistory",
+                    "showUnreadBadge": true
+                },
+                {
+                    "id": "WiFi"
+                },
+                {
+                    "id": "Bluetooth"
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Battery",
+                    "warningThreshold": 30
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Volume"
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Brightness"
+                },
+                {
+                    "customFont": "",
+                    "formatHorizontal": "MMM dd  HH:mm ddd",
+                    "formatVertical": "MM dd - HH mm",
+                    "id": "Clock",
+                    "useCustomFont": false,
+                    "usePrimaryColor": true
+                },
+                {
+                    "customIconPath": "",
+                    "icon": "",
+                    "id": "ControlCenter",
+                    "useDistroLogo": true
+                }
+            ]
+        }
+    },
+    "brightness": {
+        "brightnessStep": 5
+    },
+    "colorSchemes": {
+        "darkMode": false,
+        "generateTemplatesForPredefined": true,
+        "matugenSchemeType": "scheme-rainbow",
+        "predefinedScheme": "Gruvbox",
+        "useWallpaperColors": true
+    },
+    "controlCenter": {
+        "position": "close_to_bar_button"
+    },
+    "dock": {
+        "backgroundOpacity": 1,
+        "displayMode": "always_visible",
+        "floatingRatio": 1,
+        "monitors": [
+        ],
+        "onlySameOutput": true,
+        "pinnedApps": [
+        ]
+    },
+    "general": {
+        "animationDisabled": false,
+        "animationSpeed": 1,
+        "avatarImage": "/home/ardenet/.face",
+        "dimDesktop": true,
+        "forceBlackScreenCorners": false,
+        "radiusRatio": 1,
+        "screenRadiusRatio": 1,
+        "showScreenCorners": false
+    },
+    "hooks": {
+        "darkModeChange": "",
+        "enabled": false,
+        "wallpaperChange": ""
+    },
+    "location": {
+        "name": "chongqing",
+        "showWeekNumberInCalendar": false,
+        "use12hourFormat": false,
+        "useFahrenheit": false
+    },
+    "network": {
+        "wifiEnabled": true
+    },
+    "nightLight": {
+        "autoSchedule": true,
+        "dayTemp": "6500",
+        "enabled": true,
+        "forced": false,
+        "manualSunrise": "06:30",
+        "manualSunset": "18:30",
+        "nightTemp": "4000"
+    },
+    "notifications": {
+        "alwaysOnTop": false,
+        "criticalUrgencyDuration": 15,
+        "doNotDisturb": false,
+        "lastSeenTs": 1759851480000,
+        "location": "top_right",
+        "lowUrgencyDuration": 3,
+        "monitors": [
+        ],
+        "normalUrgencyDuration": 8,
+        "respectExpireTimeout": false
+    },
+    "osd": {
+        "autoHideMs": 2000,
+        "enabled": true,
+        "location": "top_right",
+        "monitors": [
+        ]
+    },
+    "screenRecorder": {
+        "audioCodec": "opus",
+        "audioSource": "default_output",
+        "colorRange": "limited",
+        "directory": "/home/ardenet/Videos",
+        "frameRate": 60,
+        "quality": "medium",
+        "showCursor": true,
+        "videoCodec": "h264",
+        "videoSource": "portal"
+    },
+    "settingsVersion": 12,
+    "templates": {
+        "enableUserTemplates": false,
+        "foot": false,
+        "fuzzel": false,
+        "ghostty": false,
+        "gtk": false,
+        "kitty": false,
+        "pywalfox": false,
+        "qt": false,
+        "vesktop": false
+    },
+    "ui": {
+        "fontDefault": "ComicShannsMono Nerd Font Propo",
+        "fontDefaultScale": 1,
+        "fontFixed": "ComicShannsMono Nerd Font Mono",
+        "fontFixedScale": 1,
+        "idleInhibitorEnabled": false,
+        "monitorsScaling": [
+        ],
+        "tooltipsEnabled": true
+    },
+    "wallpaper": {
+        "defaultWallpaper": "/nix/store/9hyi5mjbixg64p9q2kwndmc8i4s8l2xp-noctalia-shell-bff0694b0263ed8d85615b08a8f1d083a638fb19/share/noctalia-shell/Assets/Wallpaper/noctalia.png",
+        "directory": "/home/ardenet/Pictures/Wallpapers",
+        "enableMultiMonitorDirectories": false,
+        "enabled": true,
+        "fillColor": "#000000",
+        "fillMode": "crop",
+        "monitors": [
+            {
+                "directory": "/home/ardenet/Pictures/Wallpapers",
+                "name": "Virtual-1",
+                "wallpaper": "/home/ardenet/Pictures/Wallpapers/AC_logo.png"
+            }
+        ],
+        "randomEnabled": true,
+        "randomIntervalSec": 3600,
+        "setWallpaperOnAllMonitors": true,
+        "transitionDuration": 1500,
+        "transitionEdgeSmoothness": 0.05,
+        "transitionType": "random"
+    }
+}
